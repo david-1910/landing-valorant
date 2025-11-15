@@ -10,7 +10,10 @@ body {
     min-height: 100vh;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     margin: 0;
 }
 
@@ -41,10 +44,6 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-}
-
-.header__logo {
-
 }
 
 .header__logo-riot {
@@ -80,10 +79,6 @@ a {
 }
 
 /* -Content- */
-
-.main {
-
-}
 
 .agents {
     min-height: calc(100vh - 85px);
