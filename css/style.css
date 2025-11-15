@@ -96,10 +96,6 @@ a {
     background-position: center;
 }
 
-.agents__container {
-
-}
-
 .characters {
     display: flex;
     align-items: center;
@@ -190,7 +186,10 @@ a {
 /* -Abilities- */
 
 .abilities {
-    margin-top: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .ability {
@@ -208,14 +207,15 @@ a {
     content: "";
     position: absolute;
     bottom: 0;
-    right: 35px;
+    right: 30px;
     background-color: #ff4656;
-    width: 100px;
-    height: 70%;
+    width: 80px;
+    height: 60%;
 }
 
 .ability__text {
-
+    position: relative;
+    z-index: 2;
 }
 
 .ability__level {
